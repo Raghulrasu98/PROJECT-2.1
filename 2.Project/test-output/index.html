@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods, 5 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CartFunctionTest" class="method navigator-link" hash-for-method="addMultipleProducts(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)">addMultipleProducts(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.LoginTest" class="method navigator-link" hash-for-method="loginValidation">loginValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.UiAndUxTest" class="method navigator-link" hash-for-method="verifyFontConsistency">verifyFontConsistency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.UiAndUxTest" class="method navigator-link" hash-for-method="verifyHorizontalScrolling">verifyHorizontalScrolling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.UiAndUxTest" class="method navigator-link" hash-for-method="verifyProductAlignment">verifyProductAlignment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.OrderFunctionTest" class="method navigator-link" hash-for-method="ConformationPopup(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)">ConformationPopup(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.UiAndUxTest" class="method navigator-link" hash-for-method="actionbutn">actionbutn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CartFunctionTest" class="method navigator-link" hash-for-method="addProductToCart(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)">addProductToCart(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BrowsingAndNavigationTest" class="method navigator-link" hash-for-method="browsecatagory">browsecatagory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BrowsingAndNavigationTest" class="method navigator-link" hash-for-method="clickhome">clickhome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.OrderFunctionTest" class="method navigator-link" hash-for-method="emptydetails(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)">emptydetails(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.LoginTest" class="method navigator-link" hash-for-method="loginValidation(newuser007@gmail.com, 12345678, Validinput, newuser007@gmail.com)">loginValidation(newuser007@gmail.com, 12345678, Validinput, newuser007@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BrowsingAndNavigationTest" class="method navigator-link" hash-for-method="logout(newuser007@gmail.com, 12345678)">logout(newuser007@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CartFunctionTest" class="method navigator-link" hash-for-method="removeProductFromCart(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)">removeProductFromCart(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignupTest" class="method navigator-link" hash-for-method="signupValidation(newuser123445, 12345678, ValidSignup, Sign up successful.)">signupValidation(newuser123445, 12345678, ValidSignup, Sign up successful.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignupTest" class="method navigator-link" hash-for-method="signupValidation(, , EmptyFields, Please fill out Username and Password.)">signupValidation(, , EmptyFields, Please fill out Username and Password.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignupTest" class="method navigator-link" hash-for-method="signupValidation(newuser007@gmail.com, 12345678, ExistingUser, This user already exist.)">signupValidation(newuser007@gmail.com, 12345678, ExistingUser, This user already exist.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.OrderFunctionTest" class="method navigator-link" hash-for-method="validorder(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)">validorder(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.UiAndUxTest" class="method navigator-link" hash-for-method="verifyAlertPopup">verifyAlertPopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BrowsingAndNavigationTest" class="method navigator-link" hash-for-method="verifyNavbarNavigation">verifyNavbarNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CartFunctionTest" class="method navigator-link" hash-for-method="viewCartWithProduct(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)">viewCartWithProduct(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BrowsingAndNavigationTest" class="method navigator-link" hash-for-method="viewProductDetails">viewProductDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.CartFunctionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addMultipleProducts(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)">
+                  </a> <!-- addMultipleProducts(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520) -->
+                  <span class="method-name">addMultipleProducts</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678,Samsung galaxy s6,Nokia lumia 1520)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //h3[@id=&apos;totalp&apos;], but element #0 was invisible: [[ChromeDriver: chrome on mac (2a58bce85c05b50d6989bc0e17be10dc)] -&gt; xpath: //h3[@id=&apos;totalp&apos;]]
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.7.3&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: /var/folders/0t/29h526h57ms...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65320}, goog:processID: 9877, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:65320/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a58bce85c05b50d6989bc0e17be10dc
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+	at test.CartFunctionTest.addMultipleProducts(CartFunctionTest.java:164)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginValidation">
+                  </a> <!-- loginValidation -->
+                  <span class="method-name">loginValidation</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Video path must not be null or empty
+	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
+	at com.aventstack.extentreports.ExtentTest.addVideoFromPath(ExtentTest.java:1126)
+	at utils.MyListeners.onTestFailure(MyListeners.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.UiAndUxTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFontConsistency">
+                  </a> <!-- verifyFontConsistency -->
+                  <span class="method-name">verifyFontConsistency</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [32px] but found [24px]
+	at test.UiAndUxTest.verifyFontConsistency(UiAndUxTest.java:113)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHorizontalScrolling">
+                  </a> <!-- verifyHorizontalScrolling -->
+                  <span class="method-name">verifyHorizontalScrolling</span>
+                  <div class="stack-trace">java.lang.AssertionError: Horizontal scrolling detected expected [true] but found [false]
+	at test.UiAndUxTest.verifyHorizontalScrolling(UiAndUxTest.java:159)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductAlignment">
+                  </a> <!-- verifyProductAlignment -->
+                  <span class="method-name">verifyProductAlignment</span>
+                  <div class="stack-trace">java.lang.AssertionError: Products are misaligned expected [true] but found [false]
+	at test.UiAndUxTest.verifyProductAlignment(UiAndUxTest.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.CartFunctionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductToCart(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)">
+                  </a> <!-- addProductToCart(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520) -->
+                  <span class="method-name">addProductToCart</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678,Samsung galaxy s6,Nokia lumia 1520)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeProductFromCart(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)">
+                  </a> <!-- removeProductFromCart(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520) -->
+                  <span class="method-name">removeProductFromCart</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678,Samsung galaxy s6,Nokia lumia 1520)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewCartWithProduct(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)">
+                  </a> <!-- viewCartWithProduct(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520) -->
+                  <span class="method-name">viewCartWithProduct</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678,Samsung galaxy s6,Nokia lumia 1520)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.BrowsingAndNavigationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="browsecatagory">
+                  </a> <!-- browsecatagory -->
+                  <span class="method-name">browsecatagory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickhome">
+                  </a> <!-- clickhome -->
+                  <span class="method-name">clickhome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout(newuser007@gmail.com, 12345678)">
+                  </a> <!-- logout(newuser007@gmail.com, 12345678) -->
+                  <span class="method-name">logout</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNavbarNavigation">
+                  </a> <!-- verifyNavbarNavigation -->
+                  <span class="method-name">verifyNavbarNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewProductDetails">
+                  </a> <!-- viewProductDetails -->
+                  <span class="method-name">viewProductDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.OrderFunctionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ConformationPopup(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)">
+                  </a> <!-- ConformationPopup(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520) -->
+                  <span class="method-name">ConformationPopup</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678,Samsung galaxy s6,Nokia lumia 1520)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptydetails(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)">
+                  </a> <!-- emptydetails(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520) -->
+                  <span class="method-name">emptydetails</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678,Samsung galaxy s6,Nokia lumia 1520)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validorder(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)">
+                  </a> <!-- validorder(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520) -->
+                  <span class="method-name">validorder</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678,Samsung galaxy s6,Nokia lumia 1520)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.SignupTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signupValidation(newuser123445, 12345678, ValidSignup, Sign up successful.)">
+                  </a> <!-- signupValidation(newuser123445, 12345678, ValidSignup, Sign up successful.) -->
+                  <span class="method-name">signupValidation</span>
+                  <span class="parameters">(newuser123445,12345678,ValidSignup,Sign up successful.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signupValidation(, , EmptyFields, Please fill out Username and Password.)">
+                  </a> <!-- signupValidation(, , EmptyFields, Please fill out Username and Password.) -->
+                  <span class="method-name">signupValidation</span>
+                  <span class="parameters">(,,EmptyFields,Please fill out Username and Password.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signupValidation(newuser007@gmail.com, 12345678, ExistingUser, This user already exist.)">
+                  </a> <!-- signupValidation(newuser007@gmail.com, 12345678, ExistingUser, This user already exist.) -->
+                  <span class="method-name">signupValidation</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678,ExistingUser,This user already exist.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginValidation(newuser007@gmail.com, 12345678, Validinput, newuser007@gmail.com)">
+                  </a> <!-- loginValidation(newuser007@gmail.com, 12345678, Validinput, newuser007@gmail.com) -->
+                  <span class="method-name">loginValidation</span>
+                  <span class="parameters">(newuser007@gmail.com,12345678,Validinput,newuser007@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.UiAndUxTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="actionbutn">
+                  </a> <!-- actionbutn -->
+                  <span class="method-name">actionbutn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAlertPopup">
+                  </a> <!-- verifyAlertPopup -->
+                  <span class="method-name">verifyAlertPopup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/raghulrasu/Documents/software/java projects/2.Project/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://www.demoblaze.com/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.MyListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.LoginTest&quot;/&gt;
+      &lt;class name=&quot;test.SignupTest&quot;/&gt;
+      &lt;class name=&quot;test.CartFunctionTest&quot;/&gt;
+      &lt;class name=&quot;test.OrderFunctionTest&quot;/&gt;
+      &lt;class name=&quot;test.UiAndUxTest&quot;/&gt;
+      &lt;class name=&quot;test.BrowsingAndNavigationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginValidation')
+data.setCell(0, 2, 'test.LoginTest')
+data.setCell(0, 3, 42367);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'removeProductFromCart')
+data.setCell(1, 2, 'test.CartFunctionTest')
+data.setCell(1, 3, 22059);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ConformationPopup')
+data.setCell(2, 2, 'test.OrderFunctionTest')
+data.setCell(2, 3, 20309);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'emptydetails')
+data.setCell(3, 2, 'test.OrderFunctionTest')
+data.setCell(3, 3, 19676);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validorder')
+data.setCell(4, 2, 'test.OrderFunctionTest')
+data.setCell(4, 3, 19598);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'viewCartWithProduct')
+data.setCell(5, 2, 'test.CartFunctionTest')
+data.setCell(5, 3, 19446);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addMultipleProducts')
+data.setCell(6, 2, 'test.CartFunctionTest')
+data.setCell(6, 3, 16718);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addProductToCart')
+data.setCell(7, 2, 'test.CartFunctionTest')
+data.setCell(7, 3, 14788);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'browsecatagory')
+data.setCell(8, 2, 'test.BrowsingAndNavigationTest')
+data.setCell(8, 3, 11664);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'logout')
+data.setCell(9, 2, 'test.BrowsingAndNavigationTest')
+data.setCell(9, 3, 10940);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginValidation')
+data.setCell(10, 2, 'test.LoginTest')
+data.setCell(10, 3, 10575);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyNavbarNavigation')
+data.setCell(11, 2, 'test.BrowsingAndNavigationTest')
+data.setCell(11, 3, 9992);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'signupValidation')
+data.setCell(12, 2, 'test.SignupTest')
+data.setCell(12, 3, 8166);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'signupValidation')
+data.setCell(13, 2, 'test.SignupTest')
+data.setCell(13, 3, 7397);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyAlertPopup')
+data.setCell(14, 2, 'test.UiAndUxTest')
+data.setCell(14, 3, 7233);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'clickhome')
+data.setCell(15, 2, 'test.BrowsingAndNavigationTest')
+data.setCell(15, 3, 6838);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'signupValidation')
+data.setCell(16, 2, 'test.SignupTest')
+data.setCell(16, 3, 6710);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyFontConsistency')
+data.setCell(17, 2, 'test.UiAndUxTest')
+data.setCell(17, 3, 6445);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'actionbutn')
+data.setCell(18, 2, 'test.UiAndUxTest')
+data.setCell(18, 3, 5968);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'viewProductDetails')
+data.setCell(19, 2, 'test.BrowsingAndNavigationTest')
+data.setCell(19, 3, 5961);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyProductAlignment')
+data.setCell(20, 2, 'test.UiAndUxTest')
+data.setCell(20, 3, 3243);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyHorizontalScrolling')
+data.setCell(21, 2, 'test.UiAndUxTest')
+data.setCell(21, 3, 3041);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">10 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.CartFunctionTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+                <span class="ignored-method-name">reportintialization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.BrowsingAndNavigationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+                <span class="ignored-method-name">reportintialization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.OrderFunctionTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+                <span class="ignored-method-name">reportintialization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.SignupTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportintialization</span>
+                <br/>
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.UiAndUxTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportintialization</span>
+                <br/>
+                <span class="ignored-method-name">closereport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">reportintialization</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.BrowsingAndNavigationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentdetails</span>
+                <span class="method-start">340 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CartFunctionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentdetails</span>
+                <span class="method-start">347 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.UiAndUxTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentdetails</span>
+                <span class="method-start">348 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.SignupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentdetails</span>
+                <span class="method-start">348 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.OrderFunctionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentdetails</span>
+                <span class="method-start">348 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentdetails</span>
+                <span class="method-start">348 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">testdescription</span>
+                <span class="method-start">365 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginValidation</span>
+                <span class="method-start">377 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">2397 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginValidation(newuser007@gmail.com, 12345678, Validinput, newuser007@gmail.com)</span>
+                <span class="method-start">14844 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">26099 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">26316 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.SignupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testdescription</span>
+                <span class="method-start">43295 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">43949 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signupValidation(newuser123445, 12345678, ValidSignup, Sign up successful.)</span>
+                <span class="method-start">54497 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">63850 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">64050 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signupValidation(newuser007@gmail.com, 12345678, ExistingUser, This user already exist.)</span>
+                <span class="method-start">74787 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">82709 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">82912 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signupValidation(, , EmptyFields, Please fill out Username and Password.)</span>
+                <span class="method-start">92649 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">99959 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CartFunctionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testdescription</span>
+                <span class="method-start">100066 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">100401 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addMultipleProducts(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)</span>
+                <span class="method-start">110974 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">128153 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">143062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addProductToCart(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)</span>
+                <span class="method-start">153351 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">168534 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">168791 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">viewCartWithProduct(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)</span>
+                <span class="method-start">178461 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">198290 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">198512 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeProductFromCart(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)</span>
+                <span class="method-start">207869 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">230443 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.OrderFunctionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testdescription</span>
+                <span class="method-start">230568 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">230694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ConformationPopup(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)</span>
+                <span class="method-start">240644 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">261527 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">261742 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptydetails(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)</span>
+                <span class="method-start">270668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">290719 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">290911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validorder(newuser007@gmail.com, 12345678, Samsung galaxy s6, Nokia lumia 1520)</span>
+                <span class="method-start">299836 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">319765 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.UiAndUxTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testdescription</span>
+                <span class="method-start">319864 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">319865 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">actionbutn</span>
+                <span class="method-start">328829 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">335225 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">335442 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAlertPopup</span>
+                <span class="method-start">344328 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">352425 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">352656 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyFontConsistency</span>
+                <span class="method-start">361591 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">368385 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">368484 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyHorizontalScrolling</span>
+                <span class="method-start">377443 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">380676 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">380774 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyProductAlignment</span>
+                <span class="method-start">389540 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">393423 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.BrowsingAndNavigationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testdescription</span>
+                <span class="method-start">393741 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">393749 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">browsecatagory</span>
+                <span class="method-start">402698 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">414947 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">431841 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickhome</span>
+                <span class="method-start">440729 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">448210 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">448759 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logout(newuser007@gmail.com, 12345678)</span>
+                <span class="method-start">457743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">469087 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">469183 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNavbarNavigation</span>
+                <span class="method-start">478004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">488348 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(https://www.demoblaze.com/, chrome)</span>
+                <span class="method-start">488577 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">viewProductDetails</span>
+                <span class="method-start">497550 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">503870 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closereport</span>
+                <span class="method-start">504116 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

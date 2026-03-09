@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="17" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-06T00:41:54 IST" name="Suite" finished-at="2026-03-06T00:50:18 IST" duration-ms="503639">
+    <groups>
+    </groups>
+    <test started-at="2026-03-06T00:41:54 IST" name="Test" finished-at="2026-03-06T00:50:18 IST" duration-ms="503639">
+      <class name="test.BrowsingAndNavigationTest">
+        <test-method is-config="true" signature="extentdetails()[pri:0, instance:test.BrowsingAndNavigationTest@29ca3d04]" started-at="2026-03-06T00:41:54 IST" name="extentdetails" finished-at="2026-03-06T00:41:54 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentdetails -->
+        <test-method is-config="true" signature="testdescription()[pri:0, instance:test.BrowsingAndNavigationTest@29ca3d04]" started-at="2026-03-06T00:48:27 IST" name="testdescription" finished-at="2026-03-06T00:48:27 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdescription -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.BrowsingAndNavigationTest@29ca3d04]" started-at="2026-03-06T00:48:27 IST" name="browserlaunch" finished-at="2026-03-06T00:48:36 IST" duration-ms="8949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="browsecatagory()[pri:0, instance:test.BrowsingAndNavigationTest@29ca3d04]" started-at="2026-03-06T00:48:36 IST" name="browsecatagory" finished-at="2026-03-06T00:48:48 IST" duration-ms="11664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsecatagory -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.BrowsingAndNavigationTest@29ca3d04]" started-at="2026-03-06T00:48:49 IST" name="closebrowser" finished-at="2026-03-06T00:49:05 IST" duration-ms="16869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.BrowsingAndNavigationTest@29ca3d04]" started-at="2026-03-06T00:49:05 IST" name="browserlaunch" finished-at="2026-03-06T00:49:14 IST" duration-ms="8888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="clickhome()[pri:0, instance:test.BrowsingAndNavigationTest@29ca3d04]" started-at="2026-03-06T00:49:14 IST" name="clickhome" finished-at="2026-03-06T00:49:21 IST" duration-ms="6838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickhome -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.BrowsingAndNavigationTest@29ca3d04]" started-at="2026-03-06T00:49:22 IST" name="closebrowser" finished-at="2026-03-06T00:49:22 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.BrowsingAndNavigationTest@29ca3d04]" started-at="2026-03-06T00:49:22 IST" name="browserlaunch" finished-at="2026-03-06T00:49:31 IST" duration-ms="8983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="logout(java.lang.String,java.lang.String)[pri:0, instance:test.BrowsingAndNavigationTest@29ca3d04]" started-at="2026-03-06T00:49:31 IST" name="logout" data-provider="xllogindetails" finished-at="2026-03-06T00:49:42 IST" duration-ms="10940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.BrowsingAndNavigationTest@29ca3d04]" started-at="2026-03-06T00:49:43 IST" name="closebrowser" finished-at="2026-03-06T00:49:43 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.BrowsingAndNavigationTest@29ca3d04]" started-at="2026-03-06T00:49:43 IST" name="browserlaunch" finished-at="2026-03-06T00:49:52 IST" duration-ms="8821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="verifyNavbarNavigation()[pri:0, instance:test.BrowsingAndNavigationTest@29ca3d04]" started-at="2026-03-06T00:49:52 IST" name="verifyNavbarNavigation" finished-at="2026-03-06T00:50:02 IST" duration-ms="9992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavbarNavigation -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.BrowsingAndNavigationTest@29ca3d04]" started-at="2026-03-06T00:50:02 IST" name="closebrowser" finished-at="2026-03-06T00:50:02 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.BrowsingAndNavigationTest@29ca3d04]" started-at="2026-03-06T00:50:02 IST" name="browserlaunch" finished-at="2026-03-06T00:50:11 IST" duration-ms="8973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="viewProductDetails()[pri:0, instance:test.BrowsingAndNavigationTest@29ca3d04]" started-at="2026-03-06T00:50:11 IST" name="viewProductDetails" finished-at="2026-03-06T00:50:17 IST" duration-ms="5961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewProductDetails -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.BrowsingAndNavigationTest@29ca3d04]" started-at="2026-03-06T00:50:18 IST" name="closebrowser" finished-at="2026-03-06T00:50:18 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test.BrowsingAndNavigationTest -->
+      <class name="test.SignupTest">
+        <test-method is-config="true" signature="extentdetails()[pri:0, instance:test.SignupTest@6f63b475]" started-at="2026-03-06T00:41:54 IST" name="extentdetails" finished-at="2026-03-06T00:41:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentdetails -->
+        <test-method is-config="true" signature="testdescription()[pri:0, instance:test.SignupTest@6f63b475]" started-at="2026-03-06T00:42:37 IST" name="testdescription" finished-at="2026-03-06T00:42:37 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdescription -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignupTest@6f63b475]" started-at="2026-03-06T00:42:38 IST" name="browserlaunch" finished-at="2026-03-06T00:42:48 IST" duration-ms="10547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="signupValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.SignupTest@6f63b475]" started-at="2026-03-06T00:42:48 IST" name="signupValidation" data-provider="xlsignup" finished-at="2026-03-06T00:42:56 IST" duration-ms="8166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser123445]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidSignup]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sign up successful.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupValidation -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.SignupTest@6f63b475]" started-at="2026-03-06T00:42:58 IST" name="closebrowser" finished-at="2026-03-06T00:42:58 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignupTest@6f63b475]" started-at="2026-03-06T00:42:58 IST" name="browserlaunch" finished-at="2026-03-06T00:43:08 IST" duration-ms="10737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="signupValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.SignupTest@6f63b475]" started-at="2026-03-06T00:43:08 IST" name="signupValidation" data-provider="xlsignup" finished-at="2026-03-06T00:43:16 IST" duration-ms="7397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ExistingUser]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This user already exist.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupValidation -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.SignupTest@6f63b475]" started-at="2026-03-06T00:43:16 IST" name="closebrowser" finished-at="2026-03-06T00:43:17 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignupTest@6f63b475]" started-at="2026-03-06T00:43:17 IST" name="browserlaunch" finished-at="2026-03-06T00:43:26 IST" duration-ms="9736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="signupValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.SignupTest@6f63b475]" started-at="2026-03-06T00:43:26 IST" name="signupValidation" data-provider="xlsignup" finished-at="2026-03-06T00:43:33 IST" duration-ms="6710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EmptyFields]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please fill out Username and Password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupValidation -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.SignupTest@6f63b475]" started-at="2026-03-06T00:43:34 IST" name="closebrowser" finished-at="2026-03-06T00:43:34 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test.SignupTest -->
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="reportintialization()[pri:0, instance:test.LoginTest@13330ac6]" started-at="2026-03-06T00:41:54 IST" name="reportintialization" finished-at="2026-03-06T00:41:54 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportintialization -->
+        <test-method is-config="true" signature="extentdetails()[pri:0, instance:test.LoginTest@13330ac6]" started-at="2026-03-06T00:41:54 IST" name="extentdetails" finished-at="2026-03-06T00:41:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentdetails -->
+        <test-method is-config="true" signature="testdescription()[pri:0, instance:test.LoginTest@13330ac6]" started-at="2026-03-06T00:41:54 IST" name="testdescription" finished-at="2026-03-06T00:41:54 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdescription -->
+        <test-method signature="loginValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@13330ac6]" started-at="2026-03-06T00:41:54 IST" name="loginValidation" data-provider="xllogin" finished-at="2026-03-06T00:42:36 IST" duration-ms="42367" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Video path must not be null or empty]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Video path must not be null or empty
+at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
+at com.aventstack.extentreports.ExtentTest.addVideoFromPath(ExtentTest.java:1126)
+at utils.MyListeners.onTestFailure(MyListeners.java:42)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@13330ac6]" started-at="2026-03-06T00:41:56 IST" name="browserlaunch" finished-at="2026-03-06T00:42:08 IST" duration-ms="12444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="loginValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@13330ac6]" started-at="2026-03-06T00:42:08 IST" name="loginValidation" data-provider="xllogin" finished-at="2026-03-06T00:42:19 IST" duration-ms="10575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Validinput]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.LoginTest@13330ac6]" started-at="2026-03-06T00:42:20 IST" name="closebrowser" finished-at="2026-03-06T00:42:20 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@13330ac6]" started-at="2026-03-06T00:42:20 IST" name="browserlaunch" finished-at="2026-03-06T00:42:29 IST" duration-ms="9519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method is-config="true" signature="closereport()[pri:0, instance:test.LoginTest@13330ac6]" started-at="2026-03-06T00:50:18 IST" name="closereport" finished-at="2026-03-06T00:50:18 IST" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closereport -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.CartFunctionTest">
+        <test-method is-config="true" signature="extentdetails()[pri:0, instance:test.CartFunctionTest@554e218]" started-at="2026-03-06T00:41:54 IST" name="extentdetails" finished-at="2026-03-06T00:41:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentdetails -->
+        <test-method is-config="true" signature="testdescription()[pri:0, instance:test.CartFunctionTest@554e218]" started-at="2026-03-06T00:43:34 IST" name="testdescription" finished-at="2026-03-06T00:43:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdescription -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.CartFunctionTest@554e218]" started-at="2026-03-06T00:43:34 IST" name="browserlaunch" finished-at="2026-03-06T00:43:45 IST" duration-ms="10572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="addMultipleProducts(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.CartFunctionTest@554e218]" started-at="2026-03-06T00:43:45 IST" name="addMultipleProducts" data-provider="xlcart" finished-at="2026-03-06T00:44:01 IST" duration-ms="16718" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Samsung galaxy s6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nokia lumia 1520]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.xpath: //h3[@id='totalp'], but element #0 was invisible: [[ChromeDriver: chrome on mac (2a58bce85c05b50d6989bc0e17be10dc)] -> xpath: //h3[@id='totalp']]
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.7.3', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: /var/folders/0t/29h526h57ms...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65320}, goog:processID: 9877, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:65320/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a58bce85c05b50d6989bc0e17be10dc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //h3[@id='totalp'], but element #0 was invisible: [[ChromeDriver: chrome on mac (2a58bce85c05b50d6989bc0e17be10dc)] -> xpath: //h3[@id='totalp']]
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.7.3', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: /var/folders/0t/29h526h57ms...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65320}, goog:processID: 9877, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:65320/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a58bce85c05b50d6989bc0e17be10dc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+at test.CartFunctionTest.addMultipleProducts(CartFunctionTest.java:164)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleProducts -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.CartFunctionTest@554e218]" started-at="2026-03-06T00:44:02 IST" name="closebrowser" finished-at="2026-03-06T00:44:16 IST" duration-ms="14505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.CartFunctionTest@554e218]" started-at="2026-03-06T00:44:17 IST" name="browserlaunch" finished-at="2026-03-06T00:44:27 IST" duration-ms="10288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="addProductToCart(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.CartFunctionTest@554e218]" started-at="2026-03-06T00:44:27 IST" name="addProductToCart" data-provider="xlcart" finished-at="2026-03-06T00:44:42 IST" duration-ms="14788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Samsung galaxy s6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nokia lumia 1520]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.CartFunctionTest@554e218]" started-at="2026-03-06T00:44:42 IST" name="closebrowser" finished-at="2026-03-06T00:44:42 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.CartFunctionTest@554e218]" started-at="2026-03-06T00:44:42 IST" name="browserlaunch" finished-at="2026-03-06T00:44:52 IST" duration-ms="9669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="viewCartWithProduct(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.CartFunctionTest@554e218]" started-at="2026-03-06T00:44:52 IST" name="viewCartWithProduct" data-provider="xlcart" finished-at="2026-03-06T00:45:12 IST" duration-ms="19446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Samsung galaxy s6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nokia lumia 1520]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewCartWithProduct -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.CartFunctionTest@554e218]" started-at="2026-03-06T00:45:12 IST" name="closebrowser" finished-at="2026-03-06T00:45:12 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.CartFunctionTest@554e218]" started-at="2026-03-06T00:45:12 IST" name="browserlaunch" finished-at="2026-03-06T00:45:22 IST" duration-ms="9357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="removeProductFromCart(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test.CartFunctionTest@554e218]" started-at="2026-03-06T00:45:22 IST" name="removeProductFromCart" data-provider="xlcart" finished-at="2026-03-06T00:45:44 IST" duration-ms="22059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Samsung galaxy s6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nokia lumia 1520]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCart -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.CartFunctionTest@554e218]" started-at="2026-03-06T00:45:44 IST" name="closebrowser" finished-at="2026-03-06T00:45:44 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test.CartFunctionTest -->
+      <class name="test.UiAndUxTest">
+        <test-method is-config="true" signature="extentdetails()[pri:0, instance:test.UiAndUxTest@5bf8fa12]" started-at="2026-03-06T00:41:54 IST" name="extentdetails" finished-at="2026-03-06T00:41:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentdetails -->
+        <test-method is-config="true" signature="testdescription()[pri:0, instance:test.UiAndUxTest@5bf8fa12]" started-at="2026-03-06T00:47:14 IST" name="testdescription" finished-at="2026-03-06T00:47:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdescription -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.UiAndUxTest@5bf8fa12]" started-at="2026-03-06T00:47:14 IST" name="browserlaunch" finished-at="2026-03-06T00:47:22 IST" duration-ms="8964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="actionbutn()[pri:0, instance:test.UiAndUxTest@5bf8fa12]" started-at="2026-03-06T00:47:22 IST" name="actionbutn" finished-at="2026-03-06T00:47:28 IST" duration-ms="5968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actionbutn -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.UiAndUxTest@5bf8fa12]" started-at="2026-03-06T00:47:29 IST" name="closebrowser" finished-at="2026-03-06T00:47:29 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.UiAndUxTest@5bf8fa12]" started-at="2026-03-06T00:47:29 IST" name="browserlaunch" finished-at="2026-03-06T00:47:38 IST" duration-ms="8885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="verifyAlertPopup()[pri:0, instance:test.UiAndUxTest@5bf8fa12]" started-at="2026-03-06T00:47:38 IST" name="verifyAlertPopup" finished-at="2026-03-06T00:47:45 IST" duration-ms="7233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlertPopup -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.UiAndUxTest@5bf8fa12]" started-at="2026-03-06T00:47:46 IST" name="closebrowser" finished-at="2026-03-06T00:47:46 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.UiAndUxTest@5bf8fa12]" started-at="2026-03-06T00:47:46 IST" name="browserlaunch" finished-at="2026-03-06T00:47:55 IST" duration-ms="8935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="verifyFontConsistency()[pri:0, instance:test.UiAndUxTest@5bf8fa12]" started-at="2026-03-06T00:47:55 IST" name="verifyFontConsistency" finished-at="2026-03-06T00:48:02 IST" duration-ms="6445" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [32px] but found [24px]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [32px] but found [24px]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at test.UiAndUxTest.verifyFontConsistency(UiAndUxTest.java:113)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFontConsistency -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.UiAndUxTest@5bf8fa12]" started-at="2026-03-06T00:48:02 IST" name="closebrowser" finished-at="2026-03-06T00:48:02 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.UiAndUxTest@5bf8fa12]" started-at="2026-03-06T00:48:02 IST" name="browserlaunch" finished-at="2026-03-06T00:48:11 IST" duration-ms="8959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="verifyHorizontalScrolling()[pri:0, instance:test.UiAndUxTest@5bf8fa12]" started-at="2026-03-06T00:48:11 IST" name="verifyHorizontalScrolling" finished-at="2026-03-06T00:48:14 IST" duration-ms="3041" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Horizontal scrolling detected expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Horizontal scrolling detected expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at test.UiAndUxTest.verifyHorizontalScrolling(UiAndUxTest.java:159)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHorizontalScrolling -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.UiAndUxTest@5bf8fa12]" started-at="2026-03-06T00:48:14 IST" name="closebrowser" finished-at="2026-03-06T00:48:14 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.UiAndUxTest@5bf8fa12]" started-at="2026-03-06T00:48:14 IST" name="browserlaunch" finished-at="2026-03-06T00:48:23 IST" duration-ms="8766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="verifyProductAlignment()[pri:0, instance:test.UiAndUxTest@5bf8fa12]" started-at="2026-03-06T00:48:23 IST" name="verifyProductAlignment" finished-at="2026-03-06T00:48:26 IST" duration-ms="3243" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Products are misaligned expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Products are misaligned expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at test.UiAndUxTest.verifyProductAlignment(UiAndUxTest.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductAlignment -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.UiAndUxTest@5bf8fa12]" started-at="2026-03-06T00:48:27 IST" name="closebrowser" finished-at="2026-03-06T00:48:27 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test.UiAndUxTest -->
+      <class name="test.OrderFunctionTest">
+        <test-method is-config="true" signature="extentdetails()[pri:0, instance:test.OrderFunctionTest@1608bcbd]" started-at="2026-03-06T00:41:54 IST" name="extentdetails" finished-at="2026-03-06T00:41:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentdetails -->
+        <test-method is-config="true" signature="testdescription()[pri:0, instance:test.OrderFunctionTest@1608bcbd]" started-at="2026-03-06T00:45:44 IST" name="testdescription" finished-at="2026-03-06T00:45:44 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdescription -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.OrderFunctionTest@1608bcbd]" started-at="2026-03-06T00:45:44 IST" name="browserlaunch" finished-at="2026-03-06T00:45:54 IST" duration-ms="9948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="ConformationPopup(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.OrderFunctionTest@1608bcbd]" started-at="2026-03-06T00:45:54 IST" name="ConformationPopup" data-provider="xlcart" finished-at="2026-03-06T00:46:15 IST" duration-ms="20309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Samsung galaxy s6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nokia lumia 1520]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConformationPopup -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.OrderFunctionTest@1608bcbd]" started-at="2026-03-06T00:46:15 IST" name="closebrowser" finished-at="2026-03-06T00:46:15 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.OrderFunctionTest@1608bcbd]" started-at="2026-03-06T00:46:15 IST" name="browserlaunch" finished-at="2026-03-06T00:46:24 IST" duration-ms="8925" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="emptydetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.OrderFunctionTest@1608bcbd]" started-at="2026-03-06T00:46:24 IST" name="emptydetails" data-provider="xlcart" finished-at="2026-03-06T00:46:44 IST" duration-ms="19676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Samsung galaxy s6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nokia lumia 1520]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptydetails -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.OrderFunctionTest@1608bcbd]" started-at="2026-03-06T00:46:44 IST" name="closebrowser" finished-at="2026-03-06T00:46:44 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:test.OrderFunctionTest@1608bcbd]" started-at="2026-03-06T00:46:45 IST" name="browserlaunch" finished-at="2026-03-06T00:46:53 IST" duration-ms="8925" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="validorder(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.OrderFunctionTest@1608bcbd]" started-at="2026-03-06T00:46:53 IST" name="validorder" data-provider="xlcart" finished-at="2026-03-06T00:47:13 IST" duration-ms="19598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Samsung galaxy s6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nokia lumia 1520]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validorder -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.OrderFunctionTest@1608bcbd]" started-at="2026-03-06T00:47:13 IST" name="closebrowser" finished-at="2026-03-06T00:47:14 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test.OrderFunctionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

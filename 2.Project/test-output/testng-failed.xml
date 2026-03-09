@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://www.demoblaze.com/"/>
+  <listeners>
+    <listener class-name="utils.MyListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.CartFunctionTest">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="addMultipleProducts" invocation-numbers="0"/>
+          <include name="closebrowser"/>
+          <include name="reportintialization"/>
+          <include name="testdescription"/>
+          <include name="closereport"/>
+          <include name="extentdetails"/>
+        </methods>
+      </class> <!-- test.CartFunctionTest -->
+      <class name="test.LoginTest">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="closebrowser"/>
+          <include name="extentdetails"/>
+          <include name="loginValidation" invocation-numbers="1"/>
+          <include name="reportintialization"/>
+          <include name="testdescription"/>
+          <include name="closereport"/>
+        </methods>
+      </class> <!-- test.LoginTest -->
+      <class name="test.UiAndUxTest">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="closebrowser"/>
+          <include name="reportintialization"/>
+          <include name="verifyHorizontalScrolling"/>
+          <include name="extentdetails"/>
+          <include name="testdescription"/>
+          <include name="verifyProductAlignment"/>
+          <include name="closereport"/>
+          <include name="verifyFontConsistency"/>
+        </methods>
+      </class> <!-- test.UiAndUxTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
